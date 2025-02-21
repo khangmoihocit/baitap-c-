@@ -26,17 +26,9 @@ namespace Bai4._4
         private void btnNhap_Click(object sender, EventArgs e)
         {
             GetValuesTextBoxes();
-            khachHang.MaKH = int.Parse(dgvKhachHang.SelectedRows[0].Cells[0].Value.ToString());
-            if (btnNhap.Text == "Nhập")
-            {
                 modify.addKhachHang(khachHang);
-                    frmKhachHang_Load(sender, e);
-            }
-            if(btnNhap.Text == "Cập nhật")
-            {
-                modify.update(khachHang);
                 frmKhachHang_Load(sender, e);
-            }
+
 
 
         }
@@ -44,6 +36,10 @@ namespace Bai4._4
         private void frmKhachHang_Load(object sender, EventArgs e)
         {
             dgvKhachHang.DataSource = modify.Table("spKhachHang_Get");
+            btnCapNhat.Visible = false;
+            btnCapNhat.Enabled = false;
+            btnNhap.Visible = true;
+            btnNhap.Enabled = true;
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -116,9 +112,13 @@ namespace Bai4._4
                     }
                     dtpNgaySinh.Value = DateTime.Parse(dgvKhachHang.SelectedRows[0].Cells[5].Value.ToString());
                     txtTenCoQuan.Text = dgvKhachHang.SelectedRows[0].Cells[6].Value.ToString();
-                    btnNhap.Text = "Cập nhập";
+                    btnNhap.Visible = false;
+                    btnNhap.Enabled = false;
+                    btnCapNhat.Visible = true;
+                    btnCapNhat.Enabled = true;
+
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
@@ -127,6 +127,16 @@ namespace Bai4._4
             {
                 MessageBox.Show("bạn chưa chọn khách hàng để sửa");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GetValuesTextBoxes();
+            khachHang.MaKH = int.Parse(dgvKhachHang.SelectedRows[0].Cells[0].Value.ToString());
+
+
+            modify.update(khachHang);
+            frmKhachHang_Load(sender, e);
         }
     }
 }

@@ -47,6 +47,7 @@
             btnSua = new Button();
             btnTimKiem = new Button();
             btnXoa = new Button();
+            btnCapNhat = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvKhachHang).BeginInit();
             SuspendLayout();
             // 
@@ -182,7 +183,7 @@
             // 
             // btnNhap
             // 
-            btnNhap.Location = new Point(128, 315);
+            btnNhap.Location = new Point(110, 315);
             btnNhap.Name = "btnNhap";
             btnNhap.Size = new Size(116, 53);
             btnNhap.TabIndex = 6;
@@ -230,11 +231,22 @@
             btnXoa.UseVisualStyleBackColor = true;
             btnXoa.Click += btnXoa_Click;
             // 
+            // btnCapNhat
+            // 
+            btnCapNhat.Location = new Point(110, 315);
+            btnCapNhat.Name = "btnCapNhat";
+            btnCapNhat.Size = new Size(116, 53);
+            btnCapNhat.TabIndex = 7;
+            btnCapNhat.Text = "Cập nhật";
+            btnCapNhat.UseVisualStyleBackColor = true;
+            btnCapNhat.Click += button1_Click;
+            // 
             // frmKhachHang
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(989, 768);
+            Controls.Add(btnCapNhat);
             Controls.Add(btnXoa);
             Controls.Add(btnTimKiem);
             Controls.Add(btnSua);
@@ -286,5 +298,6 @@
         private Button btnSua;
         private Button btnTimKiem;
         private Button btnXoa;
+        private Button btnCapNhat;
     }
 }

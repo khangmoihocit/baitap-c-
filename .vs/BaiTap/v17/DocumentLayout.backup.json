@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|solutionrelative:bai4.4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|d:\\c#\\baitap\\bai4.4\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|solutionrelative:bai4.4\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|d:\\c#\\baitap\\bai4.4\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|solutionrelative:bai4.4\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|d:\\c#\\baitap\\bai4.4\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|solutionrelative:bai4.4\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|d:\\c#\\baitap\\bai4.4\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0E92F63-1008-4CB3-BBE0-538AB93C823B}|Bai4.4\\Bai4.4.csproj|solutionrelative:bai4.4\\modify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "KhachHang.cs",
               "DocumentMoniker": "D:\\C#\\BaiTap\\Bai4.4\\KhachHang.cs",
               "RelativeDocumentMoniker": "Bai4.4\\KhachHang.cs",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "Bai4.4\\KhachHang.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA3wCsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:06:46.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T07:06:46.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Connection.cs",
               "DocumentMoniker": "D:\\C#\\BaiTap\\Bai4.4\\Connection.cs",
               "RelativeDocumentMoniker": "Bai4.4\\Connection.cs",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Bai4.4\\Connection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:11:55.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T07:11:55.999Z"
             },
             {
               "$type": "Document",
@@ -74,23 +72,22 @@
               "RelativeDocumentMoniker": "Bai4.4\\Form1.cs",
               "ToolTip": "D:\\C#\\BaiTap\\Bai4.4\\Form1.cs*",
               "RelativeToolTip": "Bai4.4\\Form1.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAApwCQAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwHUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-20T07:47:54.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Modify.cs",
               "DocumentMoniker": "D:\\C#\\BaiTap\\Bai4.4\\Modify.cs",
               "RelativeDocumentMoniker": "Bai4.4\\Modify.cs",
               "ToolTip": "D:\\C#\\BaiTap\\Bai4.4\\Modify.cs",
               "RelativeToolTip": "Bai4.4\\Modify.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAewDwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAIA2wDwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T07:01:45.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T07:01:45.624Z"
             },
             {
               "$type": "Document",
